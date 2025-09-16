@@ -1,0 +1,54 @@
+body{
+    background-image: url('images/American-food.jpg');
+    background-size: cover;
+}
+#content {
+    height: 80vh;
+    
+    color: #FFF;
+}
+#headline{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: xx-large;
+    font-family: Cursive, fantasy;
+ }
+
+#description{
+    padding: 0px 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+nav button{
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    font-family: oswald;
+    font-size: 30px;
+    font-weight: 50;
+    line-height: 1;
+}
+nav button.active{
+    border-bottom: 1px solid red;
+}
+.menus{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding-top: 50px;
+}
+.menus div h3{
+    text-align: center;
+}
+.menus div ul {
+    list-style-type: none;
+    margin-left: 0; 
+    padding-left: 15px;
+}
