@@ -1,6 +1,7 @@
 import "./restaurant.css";
 import {home} from "./home-manage.js";
-import {menu} from "./menu-manage.js"
+import {menu} from "./menu-manage.js";
+import { about } from "./about-manage.js";
 
 const content = document.querySelector('#content');
 const btn_home = document.querySelector('#home');
@@ -23,7 +24,8 @@ btn_menu.addEventListener('click', ()=>{
 
 btn_about.addEventListener('click', ()=>{
     clearContent();
-    //TODO
+    about(content);
+    btn_about.classList.add('active');
 });
 
 function clearContent(){

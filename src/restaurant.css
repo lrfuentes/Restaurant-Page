@@ -1,6 +1,7 @@
 body{
     background-image: url('images/American-food.jpg');
     background-size: cover;
+    font-family: Cursive, fantasy;
 }
 #content {
     height: 80vh;
@@ -14,7 +15,7 @@ body{
     justify-content: space-around;
     padding: 20px;
     font-size: xx-large;
-    font-family: Cursive, fantasy;
+    
  }
 
 #description{
@@ -51,4 +52,25 @@ nav button.active{
     list-style-type: none;
     margin-left: 0; 
     padding-left: 15px;
+}
+
+#abouts{
+    padding-top: 50px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+#abouts>div:first-child{
+    padding: 50px;
+}#abouts li{
+    padding: 5px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+#abouts ul{
+    margin-left: 0px;
+}
+#abouts h3{
+    padding-left: 10px;
 }
